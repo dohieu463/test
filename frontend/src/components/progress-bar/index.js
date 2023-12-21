@@ -53,11 +53,11 @@ const MultiColorProgressBar = ({ readings, workspaceUser, userList }) => {
       </Row>
       <Row style={{ display: "flex", justifyContent: "space-between", paddingBottom: '15px' }}>
         <div className="task-count">
-          <strong>8</strong>
+          <strong>0</strong>
           <div style={{ fontSize: "10px" }}>必要</div>
         </div>
         <div className="task-count">
-          <strong>16</strong>
+          <strong>0</strong>
           <div style={{ fontSize: "10px" }}>完了</div>
         </div>
       </Row>
@@ -89,7 +89,7 @@ const MultiColorProgressBar = ({ readings, workspaceUser, userList }) => {
       </Row>
       <Row>
         <div className="complete-rate">
-            <strong style={{fontSize: '14px'}}>16%</strong>
+            <strong style={{fontSize: '14px'}}>25%</strong>
             <span style={{fontSize: '10px'}}>進捗度</span>
         </div>
       </Row>

@@ -4,17 +4,17 @@ const 統計 = ({ workspace, userList }) => {
   const readings = [
     {
       name: "完了",
-      value: 16,
+      value: 25,
       color: "green",
     },
     {
       name: "発展中",
-      value: 70,
+      value: 75,
       color: "#EFCD1A",
     },
     {
       name: "遅く",
-      value: 14,
+      value: 0,
       color: "red",
     },
   ];

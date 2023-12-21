@@ -126,10 +126,10 @@ const WORKSPACE_LIST = [
       "https://mvtuong.atlassian.net/rest/api/2/universal_avatar/view/type/project/avatar/10404?size=xxlarge",
     user: [
       { id: "USER-1", role: "管理人" },
-      { id: "USER-2", role: "タスクマスター" },
-      { id: "USER-3", role: "キュレーター" },
+      { id: "USER-3", role: "タスクマスター" },
+      { id: "USER-5", role: "キュレーター" },
       { id: "USER-4", role: "承認者" },
-      { id: "USER-5", role: "サポーター" },
+      { id: "USER-2", role: "サポーター" },
     ],
   },
   {
@@ -155,9 +155,9 @@ const WORKSPACE_LIST = [
     user: [
       { id: "USER-1", role: "管理人" },
       { id: "USER-3", role: "タスクマスター" },
-      { id: "USER-6", role: "キュレーター" },
-      { id: "USER-8", role: "承認者" },
-      { id: "USER-10", role: "サポーター" },
+      { id: "USER-4", role: "キュレーター" },
+      { id: "USER-7", role: "承認者" },
+      { id: "USER-9", role: "サポーター" },
     ],
   },
   {
