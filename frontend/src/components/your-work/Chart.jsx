@@ -5,16 +5,16 @@ import { Chart, registerables } from "chart.js";
 Chart.register(...registerables);
 const Chart1 = () => {
   const data = {
-    labels: ["1", "2", "3", "4", "5", "6"],
+    labels: ["7/2023", "8/2023", "9/2023", "10/2023", "11/2023", "12/2023"],
     datasets: [
       {
         label: "計画",
-        data: [12, 19, 30, 20, 15, 8],
+        data: [10, 11, 14, 9, 21, 9],
         backgroundColor: "#264ECA",
       },
       {
         label: "完了",
-        data: [8, 14, 13, 10, 5, 7],
+        data: [5, 5, 7, 2, 13, 6],
         backgroundColor: "#08D604",
       },
     ],

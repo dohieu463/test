@@ -8,9 +8,9 @@ const Featured = () => {
     labels: ["完了", "キャンセル", "計画", "発展中"],
     datasets: [
       {
-        data: [40, 7, 35, 18],
-        backgroundColor: ["#08D604", "#E70A0A", "#264ECA", "#FFE976"],
-        hoverBackgroundColor: ["#08D604", "#E70A0A", "#264ECA", "#FFE976"],
+        data: [20, 10, 14, 12, 10],
+        backgroundColor: ["#08D604", "#E70A0A", "#264ECA", "#FFE976", "#000000"],
+        hoverBackgroundColor: ["#08D604", "#E70A0A", "#264ECA", "#FFE976", "#000000"],
       },
     ],
   };

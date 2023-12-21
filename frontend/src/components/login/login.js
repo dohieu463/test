@@ -34,10 +34,7 @@ const ログイン = (props) => {
             value="ログイン"
             id=""
             onClick={() => {
-              api.handleLogin(
-                document.getElementById('username').value, 
-                document.getElementById('password').value
-              )
+              
               navigate("/");
             }}
           />

@@ -15,7 +15,7 @@ const Widget = ({ type }) => {
     case "scheduled":
       data = {
         title: "計画",
-        numberTask: 35,
+        numberTask: 20,
         icon: (
           <ScheduleOutlined
             className="icon"
@@ -29,7 +29,7 @@ const Widget = ({ type }) => {
     case "done":
       data = {
         title: "完了",
-        numberTask: 40,
+        numberTask: 10,
         icon: (
           <FileDoneOutlined
             className="icon"
@@ -43,7 +43,7 @@ const Widget = ({ type }) => {
     case "processing":
       data = {
         title: "発展中",
-        numberTask: 18,
+        numberTask: 14,
         icon: (
           <EditOutlined
             className="icon"
@@ -57,7 +57,7 @@ const Widget = ({ type }) => {
     case "canceled":
       data = {
         title: "キャンセル",
-        numberTask: 7,
+        numberTask: 12,
         icon: (
           <DeleteOutlined
             className="icon"
@@ -71,7 +71,7 @@ const Widget = ({ type }) => {
     case "missed":
       data = {
         title: "忘れ",
-        numberTask: 0,
+        numberTask: 10,
         icon: (
           <StopOutlined
             className="icon"
